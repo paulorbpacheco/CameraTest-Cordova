@@ -1,0 +1,73 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"org.apache.cordova.camera.CameraLauncher\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/org.apache.cordova.camera/www/CameraConstants.js",
+            "id": "org.apache.cordova.camera.Camera",
+            "pluginId": "org.apache.cordova.camera",
+            "clobbers": [
+                "Camera"
+            ]
+        },
+        {
+            "file": "plugins/org.apache.cordova.camera/www/CameraPopoverOptions.js",
+            "id": "org.apache.cordova.camera.CameraPopoverOptions",
+            "pluginId": "org.apache.cordova.camera",
+            "clobbers": [
+                "CameraPopoverOptions"
+            ]
+        },
+        {
+            "file": "plugins/org.apache.cordova.camera/www/Camera.js",
+            "id": "org.apache.cordova.camera.camera",
+            "pluginId": "org.apache.cordova.camera",
+            "clobbers": [
+                "navigator.camera"
+            ]
+        },
+        {
+            "file": "plugins/org.apache.cordova.camera/www/CameraPopoverHandle.js",
+            "id": "org.apache.cordova.camera.CameraPopoverHandle",
+            "pluginId": "org.apache.cordova.camera",
+            "clobbers": [
+                "CameraPopoverHandle"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "org.apache.cordova.camera": "0.2.3"
+    }
+}

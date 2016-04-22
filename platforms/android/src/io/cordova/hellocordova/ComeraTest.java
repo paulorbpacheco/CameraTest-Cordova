@@ -22,7 +22,7 @@ package io.cordova.hellocordova;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class ComeraTest extends DroidGap
+public class ComeraTest extends CordovaActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)

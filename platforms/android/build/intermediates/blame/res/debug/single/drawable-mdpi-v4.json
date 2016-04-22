@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "G:\\p\\PhoneGap\\CameraTest-Cordova\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "G:\\p\\PhoneGap\\CameraTest-Cordova\\platforms\\android\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "G:\\p\\PhoneGap\\CameraTest-Cordova\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "G:\\p\\PhoneGap\\CameraTest-Cordova\\platforms\\android\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

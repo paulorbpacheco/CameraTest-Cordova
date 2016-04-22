@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\p\PhoneGap\CameraTest-Cordova\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7200b06c6e89900dd3e8c1fcd99d4e370d4e7d5f">
+        <dex dex="G:\p\PhoneGap\CameraTest-Cordova\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_2f934d02537de9fb011e330919b99c482fc66c53.jar" />
+    </item>
+
+</items>
